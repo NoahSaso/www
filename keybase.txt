@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/noahsaso
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://noahsaso.com
+  * I am noahsaso (https://keybase.io/noahsaso) on keybase.
+  * I have a public key ASDRj93jBqPZzGgSoYx_567qCQNe1iM3XyAI-yEZ_1Me3Qo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d18fdde306a3d9cc6812a18c7fe7aeea09035ed623375f2008fb2119ff531edd0a",
+      "host": "keybase.io",
+      "kid": "0120d18fdde306a3d9cc6812a18c7fe7aeea09035ed623375f2008fb2119ff531edd0a",
+      "uid": "fe031e71acc7ff0c9582c4f636974e19",
+      "username": "noahsaso"
+    },
+    "merkle_root": {
+      "ctime": 1585429605,
+      "hash": "350c5f7e512135ccd4136be2e33647dd3309cde0e519d1f94aaedbcc6445c25180a28696edeeb3bfadb20fecfb14b5ee1415127fcdda4012ea20cbe3a139c36f",
+      "hash_meta": "c8b8c1f4844d9cc5cfd5d9e740f81b904c1b049db0b56e7cd02e2b42dfb90f8b",
+      "seqno": 15659345
+    },
+    "service": {
+      "entropy": "HC/N+DmyF4l2Lrcg/GARF628",
+      "hostname": "noahsaso.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.3.0"
+  },
+  "ctime": 1585429625,
+  "expire_in": 504576000,
+  "prev": "517ec6065e43416336b17a1d1bb08b5a140d675c14cea30d786dfad179ab080b",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg0Y/d4waj2cxoEqGMf+eu6gkDXtYjN18gCPshGf9THt0Kp3BheWxvYWTESpcCCsQgUX7GBl5DQWM2sXodG7CLWhQNZ1wUzqMNeG360XmrCAvEIFfwpu0vJG6w+jJt4fJjiCWJ94i69wpku5QX0KxbHZYcAgHCo3NpZ8RA/Kf/+HSy/b2TGRBoeqHSRJYURffWj+tyHqOB06uYvPlmNM9fWp7Fiy7+gJM47/yYBLLF/Ugku43OOfpPTZpeDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJ+nUEhsIXudtDx05s9ccL42k3Yd1B89Dd+l3eYhvgnoo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/noahsaso
+
+==================================================================
