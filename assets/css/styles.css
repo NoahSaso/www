@@ -113,13 +113,16 @@ div.section:last-child {
   margin-bottom: 0;
 }
 
-#about p,
-div.entry:first-child {
+#about p {
   margin-top: 0.6rem;
 }
 
+div.entry:first-child {
+  margin-top: 1rem;
+}
+
 div.entry {
-  margin-top: 1.4rem;
+  margin-top: 1.5rem;
 }
 
 div.entry > div.title {
@@ -130,7 +133,7 @@ div.entry > div.title {
   flex-wrap: wrap;
 }
 
-div.entry .title + .description {
+div.entry .description {
   margin-top: 0.6rem;
 }
 
