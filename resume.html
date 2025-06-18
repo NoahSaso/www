@@ -5,16 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Noah Saso - Resume</title>
-  <link rel="stylesheet" href="/assets/css/resume.css">
+  <link rel="stylesheet" href="/assets/css/resume.css?v=3">
 
   <!-- Font -->
   <link rel="stylesheet" href="/assets/css/calibri.css">
 </head>
 
 <body>
-  <div class="header">
+  <header>
     <h1 class="name">NOAH SASO</h1>
-  </div>
+  </header>
 
   <div class="sidebar">
     <section class="about-section">
@@ -28,7 +28,7 @@
       </p>
     </section>
 
-    <section class="section">
+    <section>
       <h2 class="section-title">Education</h2>
       <div class="education-item">
         <div class="date">
@@ -37,7 +37,8 @@
         <div class="school">University of California, Berkeley</div>
         <div class="degree">B.S. Electrical Engineering and Computer
           Science</div>
-        <ul class="award">
+        <ul class="awards">
+          <li>Honors</li>
           <li>Regents' and Chancellor's Scholar</li>
           <li>Member of TEDxBerkeley, CalHacks, and Psychedelic Science at
             Berkeley</li>
@@ -45,10 +46,10 @@
       </div>
     </section>
 
-    <section class="section">
+    <section>
       <h2 class="section-title">Social</h2>
       <div class="social">
-        <div>New York, NY</div>
+        <p>New York, NY</p>
         <div><a href="https://github.com/noahsaso"
             target="_blank">github.com/noahsaso</a>
         </div>
@@ -60,22 +61,22 @@
     </section>
   </div>
 
-  <div class="main-content">
-    <section class="section">
+  <main>
+    <section>
       <h2 class="section-title">Work Experience</h2>
 
-      <div class="job">
-        <div class="job-header">
-          <div>
-            <div class="company">DAO DAO</div>
-            <div class="job-title">Co-Founder and Maintainer</div>
+      <div class="jobs">
+        <div class="job">
+          <div class="job-header">
+            <div>
+              <p class="company">DAO DAO</p>
+              <p class="job-title">Co-Founder and Maintainer</p>
+            </div>
+            <p class="job-date">
+              2022 +
+            </p>
           </div>
-          <div class="location-date">
-            <div>2022 +</div>
-          </div>
-        </div>
-        <div class="job-description">
-          <ul>
+          <ul class="job-description">
             <li>Developed flagship, <span class="highlight">open
                 source, modular DAO governance platform</span>
               in the Cosmos using Rust.</li>
@@ -95,27 +96,24 @@
               infrastructure, deploying <span class="highlight">400+ Pulumi
                 resources</span> to CloudFlare and DigitalOcean.
             </li>
-            <li>Built in-house LLM + RAG chatbot service using
-              Claude—with access to docs and smart contract
-              schemas to assist users in configuring DAOs and
-              using the platform—served through Telegram and
-              Discord bots.</li>
+            <li>Built in-house <span class="highlight">LLM + RAG chatbot</span>
+              using Claude—with access to docs and smart contract
+              schemas to assist users in configuring DAOs and using the
+              platform—served through Telegram and Discord bots.</li>
           </ul>
         </div>
-      </div>
 
-      <div class="job">
-        <div class="job-header">
-          <div>
-            <div class="company">Layer Labs</div>
-            <div class="job-title">Principal Engineer</div>
+        <div class="job">
+          <div class="job-header">
+            <div>
+              <p class="company">Layer Labs</p>
+              <p class="job-title">Principal Engineer</p>
+            </div>
+            <p class="job-date">
+              2024 – 2025
+            </p>
           </div>
-          <div class="location-date">
-            <div>2024 – 2025</div>
-          </div>
-        </div>
-        <div class="job-description">
-          <ul>
+          <ul class="job-description">
             <li>Lead engineer on the product team building demo apps
               for <span class="highlight">novel WASM-based AVS
                 infrastructure (WAVS)</span>.</li>
@@ -127,20 +125,18 @@
               launch.</li>
           </ul>
         </div>
-      </div>
 
-      <div class="job">
-        <div class="job-header">
-          <div>
-            <div class="company">DAO Up!</div>
-            <div class="job-title">Co-Founder</div>
+        <div class="job">
+          <div class="job-header">
+            <div>
+              <p class="company">DAO Up!</p>
+              <p class="job-title">Co-Founder</p>
+            </div>
+            <p class="job-date">
+              2022
+            </p>
           </div>
-          <div class="location-date">
-            <div>2022</div>
-          </div>
-        </div>
-        <div class="job-description">
-          <ul>
+          <ul class="job-description">
             <li>Developed Kickstarter-like web3-native community fundraising.
             </li>
             <li>Enabled <span class="highlight">10+ campaigns to raise over
@@ -149,20 +145,18 @@
               frontend.</li>
           </ul>
         </div>
-      </div>
 
-      <div class="job">
-        <div class="job-header">
-          <div>
-            <div class="company">GitHub Education</div>
-            <div class="job-title">Software Engineering Intern</div>
+        <div class="job">
+          <div class="job-header">
+            <div>
+              <p class="company">GitHub Education</p>
+              <p class="job-title">Software Engineering Intern</p>
+            </div>
+            <p class="job-date">
+              2020
+            </p>
           </div>
-          <div class="location-date">
-            <div>2020</div>
-          </div>
-        </div>
-        <div class="job-description">
-          <ul>
+          <ul class="job-description">
             <li>Improved UI and tooling for Rails service, <span
                 class="highlight">doubling</span> the number of
               customers that can be onboarded per month.</li>
@@ -177,7 +171,7 @@
         </div>
       </div>
     </section>
-  </div>
+  </main>
 </body>
 
 </html>

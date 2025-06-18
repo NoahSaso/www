@@ -35,14 +35,14 @@ a {
   height: fit-content;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
-.main-content {
+main {
   min-width: 0;
 }
 
-.header {
+header {
   grid-column: 1 / -1;
   text-align: center;
   border-bottom: 1px solid var(--color-tint);
@@ -69,7 +69,6 @@ a {
 .about-section {
   display: flex;
   flex-direction: column;
-  gap: 0.3rem;
 }
 
 .about {
@@ -99,12 +98,15 @@ a {
   padding-bottom: 0.3rem;
 }
 
-.job {
-  margin-bottom: 1.5rem;
+.jobs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
 }
 
 .job-header {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: start;
   margin-bottom: 0.3rem;
@@ -117,13 +119,21 @@ a {
   margin-bottom: 0.2rem;
 }
 
-.location-date {
+.job-title,
+.degree {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--color-role);
+  line-height: 1;
+}
+
+.job-date {
   text-align: right;
 }
 
-.location-date,
+.job-date,
 .date,
-.award {
+.awards li {
   color: var(--color-when-where);
   font-size: 0.85rem;
 }
@@ -156,14 +166,6 @@ ul.award li:before {
   color: var(--color-when-where);
 }
 
-.degree,
-.job-title {
-  font-weight: 700;
-  font-size: 1.1rem;
-  color: var(--color-role);
-  line-height: 1;
-}
-
 .date {
   margin-bottom: 0.2rem;
 }
@@ -182,6 +184,7 @@ ul.award li:before {
   font-weight: 700;
 }
 
+/* Desktop Print */
 @media print {
   body {
     max-width: none;
@@ -190,46 +193,31 @@ ul.award li:before {
   }
 }
 
-/* 
-@media print {
-  body {
-      max-width: none;
-      margin: 0;
-      padding: 0.5in;
-      grid-template-columns: 0.8fr 2fr;
-      gap: 1.5rem;
-  }
-  
-  .sidebar {
-      padding: 1rem;
-  }
-  
-  .header {
-      margin-bottom: 1.5rem;
-      padding-bottom: 1rem;
-  }
-  
-  .section {
-      margin-bottom: 1.5rem;
-  }
-  
-  .job {
-      margin-bottom: 1.2rem;
-      page-break-inside: avoid;
-  }
-} */
-
+/* Mobile */
 @media (max-width: 768px) {
   body {
     grid-template-columns: 1fr;
+    padding: 0.3in;
+    gap: 1.5rem;
+  }
+
+  .sidebar {
+    gap: 1rem;
+  }
+
+  .section-title {
+    padding-bottom: 0.15rem;
+  }
+
+  .jobs {
+    gap: 1rem;
   }
 
   .job-header {
     flex-direction: column;
-    align-items: start;
   }
 
-  .location-date {
+  .job-date {
     text-align: left;
     margin-top: 0.2rem;
   }
