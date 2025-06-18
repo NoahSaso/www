@@ -87,6 +87,10 @@ h1 span {
   flex-wrap: wrap;
 }
 
+i.fa-file-alt {
+  font-size: 1.3rem !important;
+}
+
 i {
   font-size: 1.4rem;
   transition: opacity 0.1s linear;
